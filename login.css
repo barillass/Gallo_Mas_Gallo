@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+/* Navbar */
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #0076c0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    margin-left: 30px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background: #f8cf00;
+  }
+  
+  /* Topnav */
+  .topnav {
+    background-color: #000000;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .topnav a:hover {
+    background-color: #f8cf00;
+    color: black;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+    width: 500px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 8px;
+    background-color: #0076c0;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+
+/* Login */
+* {box-sizing: border-box}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #f8cf00;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffe355;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #ec9742;
+  border-radius: 0px 0px 4px 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Pie de página */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #0076c0;
+    padding: 0 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f8cf00;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column p {
+    color: #f8f8f8;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+  }
+  
+  .footer-column p {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 0 40px; /* Espacio de 40px al lado derecho e izquierdo */
+  }
+  
+  .footer-bottom img {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    color: #f8f8f8;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .footer-bottom h3 {
+    font-size: 16px;
+    color: #f8cf00;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+  }
+  
+  .footer-bottom .social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom .copyright {
+    flex-basis: calc(100% - 190px);
+    margin-left: 40px;
+  }
+  
+  .social-icons a {
+    color: #fff !important;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  

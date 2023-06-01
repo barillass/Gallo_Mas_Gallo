@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Navbar */
+  body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #0076c0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    margin-left: 30px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background: #f8cf00;
+  }
+  
+  /* Topnav */
+  .topnav {
+    background-color: #000000;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .topnav a:hover {
+    background-color: #f8cf00;
+    color: black;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+    width: 500px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 8px;
+    background-color: #0076c0;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+/* Botones */
+.main h1 {
+    margin-top: 50px;
+  }
+.image-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 0; 
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 100px; 
+    padding-bottom: 15px;
+  }
+
+  .image-container img {
+    flex: 1;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Añade una transición suave de 0.3 segundos a la propiedad transform */
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1); /* Aplica un zoom del 10% (1.1) a la imagen cuando se pasa el ratón por encima */
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #0076c0;
+    padding: 0 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f8cf00;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column p {
+    color: #f8f8f8;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+  }
+  
+  .footer-column p {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 0 40px; /* Espacio de 40px al lado derecho e izquierdo */
+  }
+  
+  .footer-bottom img {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    color: #f8f8f8;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .footer-bottom h3 {
+    font-size: 16px;
+    color: #f8cf00;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+  }
+  
+  .footer-bottom .social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom .copyright {
+    flex-basis: calc(100% - 190px);
+    margin-left: 40px;
+  }
+  
+  .social-icons a {
+    color: #fff !important;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+    /* WhatsApp */
+    .whatsapp button{
+      background-color: #4dc247;
+      border-radius: 50px;
+      height: 50px;
+      width: 50px;
+      font-size: 35px;
+    }
+    
+    .promos{
+      display: flex;
+      flex-direction: row;
+      height: 674px;
+      width: 100%;
+      justify-content: center;
+    }
+    
+    footer{
+      position: relative;
+    }
+    footer .whatsapp{
+      position: absolute;
+      right: 20px;
+      bottom: 25px;
+    }

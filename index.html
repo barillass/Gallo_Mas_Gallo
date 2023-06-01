@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/89675afe6a.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+  </style>
+  <title>El Gallo Más Gallo</title>
+  <link rel="icon" type="image/x-icon" href="/img/logo-gallo.ico">
+</head>
+<body>
+  <div class="topnav">
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="productos.html">Productos</a>
+    <a href="marcas.html">Marcas</a>
+    <a href="promociones.html">Promociones</a>
+    <a href="beneficios.html">Beneficios</a>
+  </div>
+  
+  <header>
+    <div class="head">
+      <div class="logo">
+        <a href="index.html"><img src="/img/logo.png" alt="LOGO"></a>
+      </div>
+  
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar...">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </div>
+  
+      <nav class="navbar">
+        <a href="login.html" ><i class="fa-solid fa-user" style="color: #f8f8f8;"></i></a>
+        <a href="#"><i class="fa-solid fa-right-to-bracket" style="color: #f8f8f8;"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #f8f8f8;"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="banner-container">
+    <img src="/img/Banner principal.png" alt="Banner">
+  </div>
+  
+  <main>
+    <!-- GIF -->
+    <!-- <div class="gif-ofe">
+      <img src="/img/Ofertas_mini.gif" alt="Gif_Ofertas">
+    </div> -->
+    <!-- Carrusel -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <!-- <div class="gif-ofe">
+        <img src="/img/Ofertas_mini.gif" alt="Gif_Ofertas">
+      </div> -->
+      <div class="mySlides fade">
+        <img src="/img/Ofertas_mini.gif" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/img/carrusel1.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="/img/carrusel2.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="/img/carrusel3.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+    </div>
+    <br>
+  
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="button-container">
+      <button class="btn success" id="menu-button">Ver Más</button>
+    </div>      
+
+    <div class="banner-container">
+      <img src="/img/fotomontaje 1.jpg" alt="Banner">
+    </div>
+
+    <!-- Imagen debajo del carrusel -->
+    <div class="promos">
+      <img src="/img/Gif1.gif" alt="Gif promos">
+      <img src="/img/fotomontaje 2.jpg" alt="Imagen oferta">
+    </div>
+
+    <div class="banner-container">
+      <img src="/img/Banner2.png" alt="Banner">
+    </div>
+  </main>
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Conócenos</h3>
+        <ul>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Tiendas</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+          <li><a href="#">Preguntas Frecuentes</a></li>
+          <li><a href="#">Formulario de Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Servicios</h3>
+        <ul>
+          <li><a href="#">Flexi Pagos</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contactanos</h3>
+        <p>Línea Telefónica: 2255-7600</p>
+        <p>Whatsapp: 5692-0707</p>
+        <p>Email: servicioalclientegt@grupomonge.com</p>
+      </div>
+      <div class="social-icons">
+        <h3 style="color: #f8cf00;">Síguenos</h3>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/ElGalloMasGalloGuatemala/"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.instagram.com/elgallomasgallo_gt/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <img src="/img/logo.png" alt="Logo">
+        <p class="copyright">El Gallo más Gallo® todos los Derechos Reservados © 2022</p>
+      </div>
+    </div>
+    <div class="whatsapp">
+      <button class="whatsapp"><a href="https://api.whatsapp.com/send/?phone=50256920707&text=Hola.%21+Me+gustar%C3%ADa+realizar+una+comprar+y+conocer+las+opciones+de+pago+en+https%3A%2F%2Fwww.elgallomasgallo.com.gt%2F&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp" style="color: #f8f8f8;"></i></a></button>
+    </div>
+  </footer>
+</body>
+</html>
