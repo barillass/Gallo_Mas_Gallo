@@ -130,19 +130,19 @@
   }
   
   .productos {
-    background-image: url('/img/electrodomesticos.jpg');
+    background-image: url('./img/electrodomesticos.jpg');
   }
   
   .marcas {
-    background-image: url('/img/Marcas.jpg');
+    background-image: url('./img/Marcas.jpg');
   }
   
   .promociones {
-    background-image: url('/img/promos.jpg');
+    background-image: url('./img/promos.jpg');
   }
   
   .beneficios {
-    background-image: url('/img/beneficios.jpg');
+    background-image: url('./img/beneficios.jpg');
   }
   
   .menu-button:hover {
