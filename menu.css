@@ -134,11 +134,11 @@
   }
   
   .marcas {
-    background-image: url('../img/Marcas.jpg');
+    background-image: url("./img/Marcas.jpg");
   }
   
   .promociones {
-    background-image: url("../img/promos.jpg");
+    background-image: url("./img/promos.jpg");
   }
   
   .beneficios {
